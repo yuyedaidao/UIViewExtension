@@ -9,7 +9,7 @@
 import UIKit
 
 extension UIView {
-    var x: CGFloat {
+    public var x: CGFloat {
         get {
             return self.frame.origin.x
         }
@@ -20,7 +20,7 @@ extension UIView {
         }
     }
     
-    var y: CGFloat {
+    public var y: CGFloat {
         get {
             return self.frame.origin.y
         }
@@ -31,7 +31,7 @@ extension UIView {
         }
     }
     
-    var width: CGFloat {
+    public var width: CGFloat {
         get {
             return self.frame.width
         }
@@ -42,7 +42,7 @@ extension UIView {
         }
     }
 
-    var height: CGFloat {
+    public var height: CGFloat {
         get {
             return self.frame.height
         }
@@ -53,7 +53,7 @@ extension UIView {
         }
     }
     
-    var centerX: CGFloat {
+    public var centerX: CGFloat {
         get {
             return self.center.x
         }
@@ -64,7 +64,7 @@ extension UIView {
         }
     }
     
-    var centerY: CGFloat {
+    public var centerY: CGFloat {
         get {
             return self.center.y
         }
@@ -75,7 +75,7 @@ extension UIView {
         }
     }
     
-    var maxX: CGFloat {
+    public var maxX: CGFloat {
         get {
             return self.frame.maxX
         }
@@ -87,7 +87,7 @@ extension UIView {
         }
     }
 
-    var maxY: CGFloat {
+    public var maxY: CGFloat {
         get {
             return self.frame.maxY
         }
@@ -102,13 +102,13 @@ extension UIView {
 }
 
 extension UIScreen {
-    var width: CGFloat {
+    public var width: CGFloat {
         get {
             return self.bounds.width
         }
     }
     
-    var height: CGFloat {
+    public var height: CGFloat {
         get {
             return self.bounds.height
         }
